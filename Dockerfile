@@ -39,4 +39,4 @@ USER botuser
 EXPOSE 5000
 
 # Comando de inicio
-CMD ["python", "bot.py"]
+CMD ["python", "main.py"]
