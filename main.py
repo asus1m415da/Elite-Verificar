@@ -13,8 +13,6 @@ from flask_cors import CORS
 import secrets
 import asyncio
 from threading import Thread
-from hypercorn.config import Config
-from hypercorn.asyncio import serve
 
 load_dotenv()
 
