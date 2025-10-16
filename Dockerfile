@@ -1,5 +1,5 @@
 # Usar Python 3.12 (evita el error de audioop en Python 3.13)
-FROM python:3.12-slim
+FROM python:3.8-slim
 
 # Información del mantenedor
 LABEL maintainer="tu-email@ejemplo.com"
