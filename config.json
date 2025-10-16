@@ -1,0 +1,15 @@
+{
+  "title": "꒰   🎈   ꒱    ׄ   Verificación    ׄ    ♡     ִ",
+  "description": "***୨˖˙・Bienvenido a Elite Rewards・˙ ₊***\n**・ Antes de verificarte porfavor pasa a los siguientes canales!!\n<a:emoji_81:1411861449902526484>  <#1414414514048340050>  \n<a:emoji_81:1411861449902526484>  <#1412924615415693322> \n・ Reacciona a  <a:VerificadoVermelho:1411035222002110585>   para tener acceso, completo al servidor.\n・ Al reaccionar, acepta cumplir con las reglas del servidor.**",
+  "image_url": "https://cdn.discordapp.com/attachments/1399864714300756029/1428188479455760554/7c12727320e9107bd656c581af98067f.gif?ex=68f197ab&is=68f0462b&hm=1fe19081c0a28f895337d6ddc15142d8ac901cfd3aafac6b32831d01c4215460&",
+  "color": 16322576,
+  "emoji": "✅",
+  "verify_role_id": "1412909830351487026",
+  "verify_channel_id": "1426744578119045231",
+  "verify_message_id": 1428486031820328971,
+  "log_channel_id": "1413321915128352778",
+  "min_account_age_hours": 24,
+  "use_server_emoji": true,
+  "server_emoji_name": "VerificadoVermelho",
+  "server_emoji_id": "1411035222002110585"
+}
