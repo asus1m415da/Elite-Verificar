@@ -658,25 +658,30 @@ def run_bot():
 
 def run_web():
     """Ejecuta el servidor web"""
+    # Railway proporciona el puerto dinámicamente
     port = int(os.getenv("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False, threaded=True)
+    host = "0.0.0.0"  # IMPORTANTE: debe ser 0.0.0.0, no localhost
+    
+    logger.info(f"🌐 Servidor web iniciando en {host}:{port}")
+    app.run(host=host, port=port, debug=False, threaded=True)
 
 if __name__ == "__main__":
     try:
         logger.info("🚀 Iniciando Elite Verify...")
-
+        
         # Iniciar bot en thread separado
         bot_thread = Thread(target=run_bot, daemon=True)
         bot_thread.start()
-
+        
         # Esperar a que el bot se conecte
         import time
         time.sleep(5)
-
-        # Iniciar servidor web
+        
+        # Iniciar servidor web (Railway asigna el puerto automáticamente)
         run_web()
-
+        
     except KeyboardInterrupt:
         logger.info("⚠️ Bot detenido por el usuario")
     except Exception as e:
         logger.error(f"❌ Error fatal: {e}")
+
